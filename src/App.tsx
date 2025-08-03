@@ -1,12 +1,13 @@
+import { Game } from './components/game';
+
 function App() {
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <div className="container mx-auto p-8">
-        <h1 className="text-2xl font-semibold">Blank Application</h1>
-        <p className="text-muted-foreground mt-2">Ready for your custom implementation.</p>
+    <div className="min-h-screen bg-background text-foreground p-4 md:p-8">
+      <div className="container mx-auto">
+        <Game />
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
